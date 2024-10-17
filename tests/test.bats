@@ -1,9 +1,9 @@
 setup() {
   set -eu -o pipefail
   export DIR="$( cd "$( dirname "$BATS_TEST_FILENAME" )" >/dev/null 2>&1 && pwd )/.."
-  export TESTDIR=~/tmp/test-addon-template
+  export TESTDIR=~/tmp/test-backdrop-bee
   mkdir -p $TESTDIR
-  export PROJNAME=test-addon-template
+  export PROJNAME=test-backdrop-bee
   export DDEV_NONINTERACTIVE=true
   ddev delete -Oy ${PROJNAME} >/dev/null 2>&1 || true
   cd "${TESTDIR}"
@@ -13,6 +13,7 @@ setup() {
 
 health_checks() {
   # Do something useful here that verifies the add-on
+  ddev restart
   ddev bee status
 }
 
@@ -36,8 +37,8 @@ teardown() {
 @test "install from release" {
   set -eu -o pipefail
   cd ${TESTDIR} || ( printf "unable to cd to ${TESTDIR}\n" && exit 1 )
-  echo "# ddev get ddev/ddev-addon-template with project ${PROJNAME} in ${TESTDIR} ($(pwd))" >&3
-  ddev get ddev/ddev-addon-template
+  echo "# ddev get jenlampton/ddev-backdrop-bee with project ${PROJNAME} in ${TESTDIR} ($(pwd))" >&3
+  ddev get jenlampton/ddev-backdrop-bee
   ddev restart >/dev/null
   health_checks
 }
