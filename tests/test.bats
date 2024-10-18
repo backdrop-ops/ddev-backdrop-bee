@@ -37,8 +37,8 @@ teardown() {
 @test "install from release" {
   set -eu -o pipefail
   cd ${TESTDIR} || ( printf "unable to cd to ${TESTDIR}\n" && exit 1 )
-  echo "# ddev get jenlampton/ddev-backdrop-bee with project ${PROJNAME} in ${TESTDIR} ($(pwd))" >&3
-  ddev get jenlampton/ddev-backdrop-bee
+  echo "# ddev get backdrop-ops/ddev-backdrop-bee with project ${PROJNAME} in ${TESTDIR} ($(pwd))" >&3
+  ddev get backdrop-ops/ddev-backdrop-bee
   ddev restart >/dev/null
   health_checks
 }

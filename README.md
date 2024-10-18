@@ -1,4 +1,4 @@
-[![tests](https://github.com/jenlampton/ddev-backdrop-bee/actions/workflows/tests.yml/badge.svg)](https://github.com/jenlampton/ddev-backdrop-bee/actions/workflows/tests.yml) ![project is maintained](https://img.shields.io/maintenance/yes/2024.svg)
+[![tests](https://github.com/backdrop-ops/ddev-backdrop-bee/actions/workflows/tests.yml/badge.svg)](https://github.com/backdrop-ops/ddev-backdrop-bee/actions/workflows/tests.yml) ![project is maintained](https://img.shields.io/maintenance/yes/2024.svg)
 
 # ddev-backdrop-bee <!-- omit in toc -->
 
@@ -12,9 +12,9 @@ This is a DDEV addon that will install Bee for use on Backdrop CMS sites.
 
 ## Installation
 
-1. Install this addon with `ddev get jenlampton/ddev-backdrop-bee`.
+1. Install this addon with `ddev get backdrop-ops/ddev-backdrop-bee`.
 2. Restart DDEV with `ddev restart`.
 3. Test bee by running `ddev bee status`.
 
 
-**Contributed and maintained by `@jenlampton`**
+**Contributed and maintained by `@jenlampton` and `@wilburec`**
