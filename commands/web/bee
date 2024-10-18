@@ -1,7 +1,7 @@
 #!/bin/bash
- #ddev-generated
- ## Description: Run command line utility for Backdrop CMS
- ## Usage: bee
- ## Example: ddev bee
+#ddev-generated
+## Description: Run command line utility for Backdrop CMS
+## Usage: bee
+## Example: ddev bee
 
 /usr/local/bin/bee/bee.php --root=/var/www/html/$DDEV_DOCROOT --uri=$DDEV_PRIMARY_URL $@
