@@ -9,6 +9,17 @@
 
 This is a DDEV addon that will install Bee for use on Backdrop CMS sites.
 
+## What is Backdrop CMS Bee?
+
+Bee is a command line utility for Backdrop CMS. It includes commands that allow developers to interact with Backdrop sites, performing actions like:
+- Running cron
+- Clearing caches
+- Downloading and installing Backdrop
+- Downloading, enabling and disabling projects
+- Viewing information about a site and/or available projects
+See the Release notes and the Changelog for details of changes between versions
+[Backdrop CMS Bee Project](https://backdropcms.org/project/bee)
+[Github Project for Bee](https://github.com/backdrop-contrib/bee)
 
 ## Installation
 
