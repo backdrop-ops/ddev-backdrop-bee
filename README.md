@@ -17,4 +17,4 @@ This is a DDEV addon that will install Bee for use on Backdrop CMS sites.
 3. Test bee by running `ddev bee status`.
 
 
-**Contributed and maintained by `@jenlampton` and `@wilburec`**
+**Contributed and maintained by `@jenlampton` and `@wylbur`**
