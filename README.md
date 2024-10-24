@@ -23,7 +23,19 @@ See the Release notes and the Changelog for details of changes between versions
 
 ## Installation
 
-1. Install this addon with `ddev get backdrop-ops/ddev-backdrop-bee`.
+1. Install this addon
+    For DDEV v1.23.5 or above run
+
+    ```sh
+    ddev add-on get backdrop-ops/ddev-backdrop-bee
+    ```
+
+    For earlier versions of DDEV run
+
+    ```sh
+    ddev get backdrop-ops/ddev-backdrop-bee
+    ```
+
 2. Restart DDEV with `ddev restart`.
 3. Test bee by running `ddev bee status`.
 
