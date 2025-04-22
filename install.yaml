@@ -4,7 +4,7 @@ pre_install_actions:
   - |
     #ddev-nodisplay
     #ddev-description:Check for backdrop project type
-    if ! ddev debug configyaml | grep -q "^type:.*backdrop"; then
+    if ! ddev debug configyaml | grep "^type:.*backdrop" >/dev/null; then
       echo "This add-on is only available for projects with backdrop type"
       exit 2
     fi
