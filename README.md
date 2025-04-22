@@ -1,5 +1,6 @@
+[![add-on registry](https://img.shields.io/badge/DDEV-Add--on_Registry-blue)](https://addons.ddev.com)
 [![tests](https://github.com/backdrop-ops/ddev-backdrop-bee/actions/workflows/tests.yml/badge.svg?branch=main)](https://github.com/backdrop-ops/ddev-backdrop-bee/actions/workflows/tests.yml?query=branch%3Amain)
-[![project is maintained](https://img.shields.io/maintenance/yes/2025.svg)](https://github.com/backdrop-ops/ddev-backdrop-bee/commits)
+[![last commit](https://img.shields.io/github/last-commit/backdrop-ops/ddev-backdrop-bee)](https://github.com/backdrop-ops/ddev-backdrop-bee/commits)
 [![release](https://img.shields.io/github/v/release/backdrop-ops/ddev-backdrop-bee)](https://github.com/backdrop-ops/ddev-backdrop-bee/releases/latest)
 
 # DDEV Backdrop Bee
